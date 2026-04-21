@@ -1,5 +1,30 @@
-# email-automation
+# 📧 Email Automation Project (Quotes + Weather API)
 
-the quotes csv file is taken from my previous python project quotes scraping https://github.com/aizudeen11/Quotes-scraping
-the api for weather info can be obtain at https://openweathermap.org/api (account need to be created)
-the email password for sender email need to be generated. refer to this video  https://www.youtube.com/watch?v=iRBgn-NewJ4
+This project automates sending **personalized email content** by combining:
+- 📜 Inspirational quotes (from a scraped dataset)
+- 🌤️ Live weather data (from OpenWeatherMap API)
+
+It demonstrates API integration, data reuse from previous projects, and automated email workflows using Python.
+
+---
+
+## 🚀 Overview
+
+The system sends automated emails containing:
+- A random inspirational quote  
+- Current weather information based on API data  
+
+This project connects multiple components:
+- A previous **quotes scraping project**
+- External **weather API integration**
+- Email automation via SMTP
+
+---
+
+## 📁 Project Structure
+
+```bash id="email-structure"
+email-automation/
+├── Quotes.csv
+├── email_content.py
+├── email_main.py
